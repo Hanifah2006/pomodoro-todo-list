@@ -15,7 +15,7 @@ export default function DashboardView({ name, tasks, a, onAdd }: { name: string;
       <div className="flex flex-col gap-4 rounded-[2rem] bg-btn p-6 text-btnink sm:flex-row sm:items-center sm:justify-between sm:p-8">
         <div>
           <h1 className="font-display text-3xl font-semibold">Halo, {name}! 👋</h1>
-          <p className="mt-1 opacity-80">Yuk selesaikan tugas hari ini, satu per satu ☕</p>
+          <p className="mt-1 opacity-80">selesaikan tugas kamu</p>
         </div>
         <button onClick={onAdd} className="rounded-2xl bg-card px-5 py-2.5 font-bold text-[#6b4c3b] transition hover:opacity-90 active:scale-95">+ Tambah Tugas Baru</button>
       </div>
